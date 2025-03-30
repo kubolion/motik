@@ -1,0 +1,131 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.cardWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1420px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardTitleWrap{
+  margin: 0 auto;
+  width: fit-content;
+  padding: 20px;
+  background-color: rgb(246 247 249);
+  border-radius: 680px;
+  border: 3px solid white;
+}
+
+.card {
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+  padding: 50px;
+  padding-bottom: 115px;
+  border-radius: 60px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  aspect-ratio: 1 / 1;
+  p{
+    font-size: 16px;
+  }
+
+  h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 20px 30px;
+    background-color: #EAEBEC;
+    border-radius: 40px;
+    border: 1px solid white;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: bold;
+  }
+
+
+}
+
+.cardOne{
+  background-image: url('/images/bgbuis.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.cardTwo{
+  background-image: url('/images/bgbuisr.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+
+
+.process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.arrow {
+  font-size: 2rem;
+}
+.buttonWrapp{
+  margin-top: -56px;
+  padding: 20px;
+  background-color: rgb(246 247 249) ;
+  border-radius: 60px;
+  border: 3px solid white;
+  border-bottom: 0px ;
+
+
+}
+
+.button {
+  font-size: 20px;
+  background-color: rgba(255, 84, 84, 1);
+  padding: 25px 55px;
+  color: white;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: background 0.4s ease, 0.4s ease;
+
+}
+
+.button:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+

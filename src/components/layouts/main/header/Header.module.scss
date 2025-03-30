@@ -1,0 +1,25 @@
+.header {
+  background-color: var(--white);
+
+  .wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+}
+
+.navList {
+  display: flex;
+  gap: 25px;
+}
+
+.wrapPhone {
+  display: flex;
+  gap: 86px;
+}
+
+.wrapBtn {
+  display: flex;
+}
+
