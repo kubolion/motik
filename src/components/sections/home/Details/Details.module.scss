@@ -1,0 +1,93 @@
+.container{
+  padding: 40px;
+  position: relative;
+
+
+  h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+
+  .wrapAllDetails{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+
+    .containerDetails{
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.6);
+      padding:  50px 40px;
+      flex-direction: column;
+      gap: 15px;
+      border-radius: 40px;
+
+      ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        li{
+          font-weight: 400;
+          font-size: 16px;
+
+        }
+      }
+    }
+    .containerDetailsForm{
+      display: flex;
+      position: relative;
+      background-color: rgba(255, 255, 255, 0.3);
+      flex-direction: column;
+      gap: 10px;
+      padding: 50px 40px ;
+      border-radius: 40px;
+      border: 1px solid white;
+
+      p{
+        text-transform: uppercase;
+
+      }
+      .buttonWrapp{
+        position: absolute;
+        right: -2px;
+        bottom: -2px;
+        padding: 20px 0 0 20px   ;
+        background-color: rgb(246 247 249) ;
+        border-radius: 40px 0 40px 0;
+        border: 1px solid white;
+        border-bottom: 2px solid #f5f6fa ;
+        border-right: 2px solid #f5f6fa ;
+
+
+      }
+      .button {
+        display: flex;
+        gap: 130px;
+        align-items: center;
+        font-size: 20px;
+        background-color: rgba(255, 84, 84, 1);
+        padding: 25px 50px;
+        color: white;
+        border-radius: 40px 0 40px 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+
+        transition: background 0.4s ease, 0.4s ease;
+
+        span{
+          margin-right: -20px;
+        }
+
+      }
+      .button:hover {
+        text-decoration: none;
+        opacity: 0.8;
+      }
+
+    }
+  }
+
+
+}

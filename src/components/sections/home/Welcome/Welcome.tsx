@@ -38,11 +38,14 @@ const Welcome = () => {
                         height={712}
                         className={styles.heroImage}
                     />
-                    <div className={styles.portfolioLabel}>
-                        <a href="#">
-                            <p>портфолио <span>→</span></p>
-                        </a>
+                    <div>
+                        <div className={styles.portfolioLabel}>
+                            <a href="#">
+                                <p>портфолио <span>→</span></p>
+                            </a>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>

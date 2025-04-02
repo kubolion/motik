@@ -1,0 +1,135 @@
+.container{
+  padding: 40px;
+  @media (max-width: 830px) {
+    padding: 10px;
+
+  }
+  h3{
+    padding: 60px 60px 60px calc(12vw - 40px);
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+}
+}
+
+
+
+.exampleLists{
+  display: grid;
+  grid-template-columns: repeat(3, minmax( 0, 1fr));
+  gap: 30px;
+  margin: 0 auto;
+
+  @media (max-width: 1220px) {
+    grid-template-columns: repeat(2, minmax( 0, 1fr));
+
+
+  }
+  @media (max-width: 830px) {
+    grid-template-columns: repeat(1, minmax( 0, 1fr));
+
+
+  }
+}
+
+
+.exampleList{
+  margin: 0 auto;
+  position: relative;
+  max-width: 553px;
+  min-width: 340px;
+ img{
+   aspect-ratio: 1/1;
+   border-radius: 40px;
+ }
+
+}
+
+
+
+
+
+
+.buttonWrapp {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: white;
+  padding: 20px 40px;
+  padding-top: 40px;
+  border-radius: 0 40px 0 40px;
+  transition: background 0.4s ease, color 0.4s ease;
+
+  @media (max-width: 440px) {
+    padding-top: 25px;
+  }
+
+  .arrow, .number {
+    color: rgba(195, 195, 195, 1);
+    transition: color 0.4s ease;
+  }
+
+  .arrow {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 24px;
+
+    i {
+      margin-top: 4px;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 440px) {
+      margin-bottom: -35px;
+    }
+  }
+
+  .number {
+    position: absolute;
+    top: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    @media (max-width: 440px) {
+      top: 10px;
+    }
+  }
+
+  .button {
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: color 0.4s ease;
+
+
+    @media (max-width: 440px) {
+      margin-bottom: 10px;
+    }
+  }
+
+
+  &:hover {
+
+    background-color: rgb(255, 84, 84);
+
+    button{
+      color: white;
+    }
+
+
+    .arrow, .number {
+      color: white;
+    }
+
+  }
+}

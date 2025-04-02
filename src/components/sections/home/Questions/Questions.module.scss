@@ -1,3 +1,18 @@
 .container{
+  padding: 40px;
+
+  h3{
+    padding: 60px 60px 60px calc(12vw - 40px);
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+
+  }
+}
+.questionsWrap{
+  max-width: 1620px;
+  min-height: 604px;
+  border-radius: 60px;
+  background: rgba(255, 255, 255, 0.5);
 
 }
